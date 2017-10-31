@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>安联保险</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!--<link rel="icon" href="img/favicon.ico">-->
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/chuangye-common.css" />
+	<link rel="stylesheet" href="css/chuangye-lg.css" media="(min-width:1200px)" />
+	<link rel="stylesheet" href="css/chuangye-md.css" media="(max-width:1200px)" />
+	<link rel="stylesheet" href="css/chuangye-sm.css" media="(max-width:1020px)" />
+	<link rel="stylesheet" href="css/chuangye-xs.css" media="(max-width:800px)" />
+	<script src="js/jquery.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.js"></script>
+	<script src="js/chuangye.js"></script>
+</head>
+<body>
+	<div id="box">
+		<div id="shade"></div>
+		<!--头部-->
+		<header class="navbar nav-default">
+			<div class="container-fluid">
+				<h1 class="navbar-header">
+					<a href="#" class="navbar-brand">安联保险</a>
+					<ul class="clearfix">
+						<li class="glyphicon glyphicon-search" id="searchBtn"></li>
+						<li class="glyphicon glyphicon-menu-hamburger" id="navBtn"></li>
+					</ul>
+				</h1>
+				<div class="header-nav navbar-left">
+					<ul class="clear-fix">
+						<li><a href="#">首页</a></li>
+						<li class="header-dropdown hidden-sm hidden-xs">
+							<a href="#" class="header-toggle">旅行险<span class="caret"></span></a>
+							<i></i>
+						</li>
+						<li class="header-dropdown hidden-sm hidden-xs">
+							<a href="#" class="header-toggle">意外险<span class="caret"></span></a>
+							<i></i>
+						</li>
+						<li  class="header-dropdown hidden-sm hidden-xs">
+							<a href="#" class="header-toggle">健康险<span class="caret"></span></a>
+							<i></i>
+						</li>
+			            <li  class="header-dropdown hidden-sm hidden-xs">
+			              <a href="#" class="header-toggle">其他保险<span class="caret"></span></a>
+			              <i></i>
+			            </li>
+			            <li class="visible-sm visible-xs"><a href="#">旅行险</a></li>
+			            <li class="visible-sm visible-xs"><a href="#">意外险</a></li>
+			            <li class="visible-sm visible-xs"><a href="#">健康险</a></li>
+			            <li class="visible-sm visible-xs"><a href="#">其他保险</a></li>
+			            <li><a href="#">安联服务</a></li>
+					</ul>
+				</div>
+				<div class="header-right navbar-right">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-search"></span>
+								<h4>搜索</h4>
+							</a>
+						</li>
+						<li class="login">
+							<a href="#">
+								<span class="glyphicon glyphicon-user"></span>
+								<h4>登录</h4>
+							</a>
+						</li>
+						<li class="signup">
+							<a href="#">
+								<span class="glyphicon glyphicon-list-alt"></span>
+								<h4>注册</h4>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	      	<!---------------------下拉列表------------------------>
+	      	<div class="header-menu">
+	        	<ul class="clearfix">
+	          <li>
+	            <span><img src="img/ico_travel01.gif" alt="旅行保险"></span>
+	            <dl>
+	              <dt>旅行保险</dt>
+	              <dd><a href="#">申根之王-申根国家旅行保险</a></dd>
+	              <dd><a href="#">爱旅行-安联全球旅行保险</a></dd>
+	              <dd><a href="#">英国旅行保障计划</a></dd>
+	            </dl>
+	          </li>
+	          <li>
+	            <span><img src="img/ico_travel02.gif" alt="留学保险"></span>
+	            <dl>
+	              <dt>留学保险</dt>
+	              <dd><a href="#">境外游学保险计划</a></dd>
+	              <dd><a href="#">境外留学保险计划</a></dd>
+	            </dl>
+	          </li>
+	        	</ul>
+	      	</div>
+			<div class="header-menu">
+				<ul class="clearfix">
+					<li>
+            			<span><img src="img/ico_acc01.gif" alt="户外运动保险"></span>
+			            <dl>
+			              <dt>户外运动保险</dt>
+			              <dd><a href="#">动力无限-安联户外运动保险</a></dd>
+			            </dl>
+					</li>
+					<li>
+			            <span><img src="img/ico_acc02.gif" alt="公共交通保险"></span>
+			            <dl>
+			              <dt>公共交通保险</dt>
+			              <dd><a href="#">出行无忧-安联综合交通意外保险</a></dd>
+			            </dl>
+					</li>
+				</ul>
+			</div>
+	      	<div class="header-menu">
+		        <ul class="clearfix">
+		          <li>
+		            <span><img src="img/ico_health01.gif" alt="综合健康保险"></span>
+		            <dl>
+		              <dt>综合健康保险</dt>
+		              <dd><a href="#">臻爱医疗保险</a></dd>
+		              <dd><a href="#">不倒翁-中老年骨折保险</a></dd>
+		              <dd><a href="#">乐享人生-成人</a></dd>
+		            </dl>
+		          </li>
+		          <li>
+		            <span><img src="img/ico_health02.gif" alt="重大疾病保险"></span>
+		            <dl>
+		              <dt>重大疾病保险</dt>
+		              <dd><a href="#">全球二次诊疗-360防癌险</a></dd>
+		            </dl>
+		          </li>
+		        </ul>
+		    </div>
+		    <div class="header-menu">
+		        <ul class="clearfix">
+		          <li>
+		            <span><img src="img/ico_jiacai.jpg" alt="家财险"></span>
+		            <dl>
+		              <dt>家财险</dt>
+		              <dd><a href="#">天然无忧</a></dd>
+		            </dl>
+		          </li>
+		          <li>
+		            <span><img src="img/ico_motor.jpg" alt="车险"></span>
+		            <dl>
+		              <dt>车险</dt>
+		              <dd><a href="#">安联汽车保险</a></dd>
+		            </dl>
+		          </li>
+		        </ul>
+		    </div>
+		</header>
+    	<!---------------------banner------------------------>
+		<div id="bannerBox">
+			<div class="banner">
+				<!-- 图片 -->
+				<div class="pic">
+					<!-- 最后一张复制放到第一张上面 -->
+					<div><a href="#"><img src="img/banner3.png" alt=""></a></div>
+					<!-- 第一张 -->
+					<div><a href="#" ><img src="img/banner1.png" alt=""></a></div>
+					<div><a href="#"><img src="img/banner2.png" alt=""></a></div>
+					<div><a href="#"><img src="img/banner3.png" alt=""></a></div>
+					<!-- 第一张复制放到最后一张后面 -->
+					<div><a href="#"><img src="img/banner1.png" alt=""></a></div>
+				</div>
+				<!-- 上下页 -->
+				<div class="pre-next clearfix">
+					<a href="javascript:;" class="pre"></a>
+					<a href="javascript:;" class="next"></a>
+				</div>
+			</div>
+		</div>
+    <!---------------------内容部分------------------------>
+    <div id="contentBox">
+      <!------------------旅行保险目的地----------------------->
+      <div class="con container destination">
+        <div>
+          <h2 class="conTitle hidden-xs">旅行保险分类</h2>
+          <ul class="nav nav-pills  nav-justified conNav">
+            <li role="presentation" class="active"><a href="javascript:;">全部</a></li>
+            <li role="presentation"><a href="javascript:;">国内旅游</a></li>
+            <li role="presentation"><a href="javascript:;">国外旅游</a></li>
+            <li role="presentation"><a href="javascript:;">特色产品</a></li>
+          </ul>
+          <ul class="conList clear-fix">
+            <li class="row" style="display: block">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg1.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">全球旅游保险（境外）</h3>
+                      <span class="pull-right">¥78<i>起</i></span>
+                    </div>
+                    <p>高达28项全球范围综合保障，24小时多语言境外紧急救援</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg3.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">自驾游保险</h3>
+                      <span class="pull-right">¥0.8<i>起</i></span>
+                    </div>
+                    <p>自驾游意外伤害、酒店住宿意外伤害及24小时境内紧急医疗救援服务</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg5.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">高原旅游保险</h3>
+                      <span class="pull-right">¥1.9<i>起</i></span>
+                    </div>
+                    <p>特有高原反应伤害及医疗保障，适合前往青海、西藏、云南、贵州等高原...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg2.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">欧洲签证旅游保险</h3>
+                      <span class="pull-right">¥68<i>起</i></span>
+                    </div>
+                    <p>适用于欧洲地区因旅游、商务、探亲而出国的人群</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg6.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">境外留学保险</h3>
+                      <span class="pull-right">¥160<i>起</i></span>
+                    </div>
+                    <p>提供境外留学期间的各项意外保障和高额医疗及救援服务</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg4.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">宝岛台湾旅游险</h3>
+                      <span class="pull-right">¥60<i>起</i></span>
+                    </div>
+                    <p>24小时全球最专业境外紧急救援</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg8.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">自助游保险</h3>
+                      <span class="pull-right">¥0.8<i>起</i></span>
+                    </div>
+                    <p>特有交通意外双倍给付、航班延误及境内紧急救援服务，适合自由行……</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg3.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">自驾游保险</h3>
+                      <span class="pull-right">¥0.8<i>起</i></span>
+                    </div>
+                    <p>自驾游意外伤害、酒店住宿意外伤害及24小时境内紧急医疗救援服务</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg7.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">家庭自驾游保险</h3>
+                      <span class="pull-right">¥19<i>起</i></span>
+                    </div>
+                    <p>家庭自驾游保险</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg4.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">宝岛台湾旅游险</h3>
+                      <span class="pull-right">¥60<i>起</i></span>
+                    </div>
+                    <p>24小时全球最专业境外紧急救援</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg1.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">全球旅游保险（境外）</h3>
+                      <span class="pull-right">¥78<i>起</i></span>
+                    </div>
+                    <p>高达28项全球范围综合保障，24小时多语言境外紧急救援</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg2.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">欧洲签证旅游保险</h3>
+                      <span class="pull-right">¥68<i>起</i></span>
+                    </div>
+                    <p>适用于欧洲地区因旅游、商务、探亲而出国的人群</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg5.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">高原旅游保险</h3>
+                      <span class="pull-right">¥1.9<i>起</i></span>
+                    </div>
+                    <p>特有高原反应伤害及医疗保障，适合前往青海、西藏、云南、贵州等高原...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/destinationImg6.jpg" alt="...">
+                  <div class="caption">
+                    <div class="clear-fix">
+                      <h3 class="pull-left">境外留学保险</h3>
+                      <span class="pull-right">¥160<i>起</i></span>
+                    </div>
+                    <p>提供境外留学期间的各项意外保障和高额医疗及救援服务</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!------------------为什么选我们----------------------->
+      <div class="whychoose">
+        <div class="container">
+          <h2 class="conTitle hidden-xs">为什么选我们</h2>
+          <div class="row whyList">
+            <div class="col-sm-6 col-md-4">
+              <div class="whyCon">
+                <span></span>
+                <p>安联全球救援是世界领先的道路救援、旅行保险、健康和家庭援助关怀等服务提供商。</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="whyCon">
+                <span class="people"></span>
+                <p>安全球范围内安联全球救援拥有超过1.3万名员工，58种语言能力。</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="whyCon">
+                <span class="cooperation"></span>
+                <p>与40多万家服务提供商合作建立了广泛的救援网络。是目前中国救援行业的领导者</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------热门博客----------------------->
+      <div class="blog">
+        <div class="container">
+          <h2 class="conTitle hidden-xs">热门博客</h2>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 blogList">
+              <a href="javascript:;">
+                <img src="img/blog-img1.png" alt="">
+                <div class="blogMdText" >
+                  <h4>马尔代夫7日游</h4>
+                  <p class="hidden-xs">看过《麦兜故事》的人很难不和麦兜一起爱上这个岛国：“椰林树影，水清沙幼。”马尔代夫的国家旅游局如此评价自己的祖国：“如果你一生中有很多次出国旅游的机会，那你一定要来马尔代夫。”</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 blogList">
+              <a href="javascript:;">
+                <img src="img/blog-img2.png" alt="">
+                <div class="blogMdText" >
+                  <h4>法国巴黎</h4>
+                  <p class="hidden-xs">天气晴朗的时候，无论在塔下的广场，还是在塔上，风景都很好。登塔，可以步行楼梯或坐电梯，步行只能到第二层，之后仍然要乘电梯。乘电梯则需要换乘一次。所以在第二层等电梯的时间较长。</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 blogList">
+              <a href="javascript:;">
+                <img src="img/blog-img3.png" alt="">
+                <div class="blogMdText" >
+                  <h4>千里迢迢到敦煌</h4>
+                  <p class="hidden-xs">由于慕名者太多，莫高窟每天限流6000人，而且每个游客只能看其中的六个洞窟。其实我们大多数人只是为了看而看而已。敦煌的莫高窟文化，其真正的价值，就是因为时间。</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 blogList">
+              <a href="javascript:;">
+                <img src="img/blog-img4.png" alt="">
+                <div class="blogMdText" >
+                  <h4>关于泸沽湖</h4>
+                  <p class="hidden-xs">泸沽湖，一个不去就不知道有多美的地方，最先吸引我的并不是如传奇般存在的这个中国仅剩的母系家族，而是慕名于那里的青山绿水，秀丽端庄。</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------footer------------------------>
+    <div id="footer">
+      <ul class="clear-fix">
+        <li><a href="javascript:;">联系我们</a></li>
+        <li><a href="javascript:;">法律声明</a></li>
+        <li><a href="javascript:;">网站声明</a></li>
+        <li><a href="javascript:;">友情链接</a></li>
+        <li><a href="javascript:;">网站地图</a></li>
+        <li><a href="javascript:;">隐私和cookie</a></li>
+        <li><a href="javascript:;">官方博客</a></li>
+      </ul>
+      <p>Copyright © 2015 安联财产保险（中国）有限公司 版权所有 粤ICP备07058166号-2</p>
+    </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.con {
+  margin: 0 auto;
+  padding: 0; }
+
+.conNav {
+  display: flex; }
+  .conNav li {
+    flex: 1; }
+
+.blogList a {
+  display: block; }
+  .blogList a img {
+    width: 100%; }
+  .blogList a .blogMdText {
+    width: 100%;
+    overflow: hidden; }
+
+#footer ul {
+  width: 100%; }
+
+/*# sourceMappingURL=chuangye-xs.css.map */
